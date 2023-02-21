@@ -11,11 +11,11 @@ class Producto {
 
 const cochecito = new Producto ("Cochecito", "Genova", 89000);
 const sillita = new Producto ("Sillita", "Berlin", 75000);
-const Butaca = new Producto ("Butaca", "Neo", 65000);
+const butaca = new Producto ("Butaca", "Neo", 65000);
 
 
 
-const arrayProductos = [cochecito, sillita, Butaca];
+const arrayProductos = [cochecito, sillita, butaca];
 
 function menu(){
     alert("Bienvenido a Mundo Bebe");
